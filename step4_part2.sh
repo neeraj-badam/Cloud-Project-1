@@ -12,4 +12,5 @@ done
 
 for year in {2000..2024}; do
 	cat output_step4_part2_"$year".txt >> output_step4_part2.txt
+	echo -e >> output_step4_part2.txt
 done
